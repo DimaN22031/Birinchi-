@@ -1,0 +1,51 @@
+.card1  {
+    background-color: rgb(250, 170, 49);
+   
+
+    height: 300;
+    width: 200px;
+}
+.navbar {
+    background-color: #838383;
+    padding: 10px 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+    display: flex;                /* Use flexbox for alignment */
+    align-items: center;         /* Vertically centers items */
+}
+
+.menu img {
+    margin-left: 5px;           /* Space between text and image */
+    height: 50px;               /* Ensure consistent height */
+    width: 50px;                /* Ensure consistent width */
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: SHADOW-color 0.3s;
+}
+
+.menu li a:hover {
+    background-color: #868181;
+}
+.f1 {
+    width: 100%;
+    height: 10%;
+}
